@@ -41,7 +41,7 @@ This repository contains:
 
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/FoeXploit/Flipper-Zero-BadUSB-Discord-Keylogger
+   git clone https://github.com/138i5/Flipper-Zero-BadUSB-Discord-Keylogger
    cd Flipper-Zero-BadUSB-Discord-Keylogger 
    ```  
 
